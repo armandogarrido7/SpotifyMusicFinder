@@ -1,0 +1,395 @@
+{
+    "artists": {
+        "href": "https://api.spotify.com/v1/search?query=duki&type=artist&locale=es-ES%2Ces%3Bq%3D0.9%2Car%3Bq%3D0.8&offset=0&limit=15",
+        "items": [{
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1bAftSH8umNcGZ0uyV7LMg"
+            },
+            "followers": {
+                "href": null,
+                "total": 7360374
+            },
+            "genres": ["argentine hip hop", "trap argentino", "trap latino", "trap triste"],
+            "href": "https://api.spotify.com/v1/artists/1bAftSH8umNcGZ0uyV7LMg",
+            "id": "1bAftSH8umNcGZ0uyV7LMg",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5eb9b2ccf4bc212d36ae64ee41a",
+                "width": 640
+            }, {
+                "height": 320,
+                "url": "https://i.scdn.co/image/ab676161000051749b2ccf4bc212d36ae64ee41a",
+                "width": 320
+            }, {
+                "height": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f1789b2ccf4bc212d36ae64ee41a",
+                "width": 160
+            }],
+            "name": "Duki",
+            "popularity": 84,
+            "type": "artist",
+            "uri": "spotify:artist:1bAftSH8umNcGZ0uyV7LMg"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1stlWvYSCm3sSEIzdKBSeY"
+            },
+            "followers": {
+                "href": null,
+                "total": 10884
+            },
+            "genres": [],
+            "href": "https://api.spotify.com/v1/artists/1stlWvYSCm3sSEIzdKBSeY",
+            "id": "1stlWvYSCm3sSEIzdKBSeY",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5eb382a881567445407fa80e99b",
+                "width": 640
+            }, {
+                "height": 320,
+                "url": "https://i.scdn.co/image/ab67616100005174382a881567445407fa80e99b",
+                "width": 320
+            }, {
+                "height": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f178382a881567445407fa80e99b",
+                "width": 160
+            }],
+            "name": "Joe Dukie",
+            "popularity": 38,
+            "type": "artist",
+            "uri": "spotify:artist:1stlWvYSCm3sSEIzdKBSeY"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/716NhGYqD1jl2wI1Qkgq36"
+            },
+            "followers": {
+                "href": null,
+                "total": 7863085
+            },
+            "genres": ["argentine hip hop", "pop venezolano", "trap argentino"],
+            "href": "https://api.spotify.com/v1/artists/716NhGYqD1jl2wI1Qkgq36",
+            "id": "716NhGYqD1jl2wI1Qkgq36",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5eb12085fdb28f314e01ef73a19",
+                "width": 640
+            }, {
+                "height": 320,
+                "url": "https://i.scdn.co/image/ab6761610000517412085fdb28f314e01ef73a19",
+                "width": 320
+            }, {
+                "height": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f17812085fdb28f314e01ef73a19",
+                "width": 160
+            }],
+            "name": "Bizarrap",
+            "popularity": 85,
+            "type": "artist",
+            "uri": "spotify:artist:716NhGYqD1jl2wI1Qkgq36"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7o7vaVn1xmW5mNQL3BaL0F"
+            },
+            "followers": {
+                "href": null,
+                "total": 8881
+            },
+            "genres": ["trap argentino"],
+            "href": "https://api.spotify.com/v1/artists/7o7vaVn1xmW5mNQL3BaL0F",
+            "id": "7o7vaVn1xmW5mNQL3BaL0F",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27338c865af5292ce4e03de7a91",
+                "width": 640
+            }, {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0238c865af5292ce4e03de7a91",
+                "width": 300
+            }, {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485138c865af5292ce4e03de7a91",
+                "width": 64
+            }],
+            "name": "Duko",
+            "popularity": 44,
+            "type": "artist",
+            "uri": "spotify:artist:7o7vaVn1xmW5mNQL3BaL0F"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1uIvpu41Xy6gcXSoaY3mr6"
+            },
+            "followers": {
+                "href": null,
+                "total": 439
+            },
+            "genres": [],
+            "href": "https://api.spotify.com/v1/artists/1uIvpu41Xy6gcXSoaY3mr6",
+            "id": "1uIvpu41Xy6gcXSoaY3mr6",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273c1a8e1f9b7fb893f682f0839",
+                "width": 640
+            }, {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02c1a8e1f9b7fb893f682f0839",
+                "width": 300
+            }, {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851c1a8e1f9b7fb893f682f0839",
+                "width": 64
+            }],
+            "name": "Duki",
+            "popularity": 15,
+            "type": "artist",
+            "uri": "spotify:artist:1uIvpu41Xy6gcXSoaY3mr6"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6vJJSuNZ0ZHv7dhYDF7ta6"
+            },
+            "followers": {
+                "href": null,
+                "total": 1359
+            },
+            "genres": ["nz reggae"],
+            "href": "https://api.spotify.com/v1/artists/6vJJSuNZ0ZHv7dhYDF7ta6",
+            "id": "6vJJSuNZ0ZHv7dhYDF7ta6",
+            "images": [],
+            "name": "Joe Dukie & DJ Fitchie",
+            "popularity": 25,
+            "type": "artist",
+            "uri": "spotify:artist:6vJJSuNZ0ZHv7dhYDF7ta6"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3vQ0GE3mI0dAaxIMYe5g7z"
+            },
+            "followers": {
+                "href": null,
+                "total": 19447731
+            },
+            "genres": ["argentine hip hop", "trap argentino", "trap latino"],
+            "href": "https://api.spotify.com/v1/artists/3vQ0GE3mI0dAaxIMYe5g7z",
+            "id": "3vQ0GE3mI0dAaxIMYe5g7z",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebbdcfc4ed6729fd1e4b63bdba",
+                "width": 640
+            }, {
+                "height": 320,
+                "url": "https://i.scdn.co/image/ab67616100005174bdcfc4ed6729fd1e4b63bdba",
+                "width": 320
+            }, {
+                "height": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f178bdcfc4ed6729fd1e4b63bdba",
+                "width": 160
+            }],
+            "name": "Paulo Londra",
+            "popularity": 79,
+            "type": "artist",
+            "uri": "spotify:artist:3vQ0GE3mI0dAaxIMYe5g7z"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4puAp107dCehraE47QXVQX"
+            },
+            "followers": {
+                "href": null,
+                "total": 1088169
+            },
+            "genres": ["trap argentino", "trap latino", "trap triste"],
+            "href": "https://api.spotify.com/v1/artists/4puAp107dCehraE47QXVQX",
+            "id": "4puAp107dCehraE47QXVQX",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebb9bda1536603a658bd1f5adb",
+                "width": 640
+            }, {
+                "height": 320,
+                "url": "https://i.scdn.co/image/ab67616100005174b9bda1536603a658bd1f5adb",
+                "width": 320
+            }, {
+                "height": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f178b9bda1536603a658bd1f5adb",
+                "width": 160
+            }],
+            "name": "C.R.O",
+            "popularity": 70,
+            "type": "artist",
+            "uri": "spotify:artist:4puAp107dCehraE47QXVQX"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5tF1OZ82Fwqnab9cIS2jPc"
+            },
+            "followers": {
+                "href": null,
+                "total": 31
+            },
+            "genres": [],
+            "href": "https://api.spotify.com/v1/artists/5tF1OZ82Fwqnab9cIS2jPc",
+            "id": "5tF1OZ82Fwqnab9cIS2jPc",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5eb2f7f11aad53802a3616179c5",
+                "width": 640
+            }, {
+                "height": 320,
+                "url": "https://i.scdn.co/image/ab676161000051742f7f11aad53802a3616179c5",
+                "width": 320
+            }, {
+                "height": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f1782f7f11aad53802a3616179c5",
+                "width": 160
+            }],
+            "name": "Dukington",
+            "popularity": 1,
+            "type": "artist",
+            "uri": "spotify:artist:5tF1OZ82Fwqnab9cIS2jPc"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3KtXBAdMNdoLtIoLfBJkL0"
+            },
+            "followers": {
+                "href": null,
+                "total": 2227
+            },
+            "genres": ["classical guitar"],
+            "href": "https://api.spotify.com/v1/artists/3KtXBAdMNdoLtIoLfBJkL0",
+            "id": "3KtXBAdMNdoLtIoLfBJkL0",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273065e98bafda49f00b6e31547",
+                "width": 640
+            }, {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02065e98bafda49f00b6e31547",
+                "width": 300
+            }, {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851065e98bafda49f00b6e31547",
+                "width": 64
+            }],
+            "name": "Zoran Dukic",
+            "popularity": 14,
+            "type": "artist",
+            "uri": "spotify:artist:3KtXBAdMNdoLtIoLfBJkL0"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5XJDexmWFLWOkjOEjOVX3e"
+            },
+            "followers": {
+                "href": null,
+                "total": 2298592
+            },
+            "genres": ["trap boricua", "trap latino", "trap triste"],
+            "href": "https://api.spotify.com/v1/artists/5XJDexmWFLWOkjOEjOVX3e",
+            "id": "5XJDexmWFLWOkjOEjOVX3e",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5eb87ff3d09a0fdb1fbdaed417b",
+                "width": 640
+            }, {
+                "height": 320,
+                "url": "https://i.scdn.co/image/ab6761610000517487ff3d09a0fdb1fbdaed417b",
+                "width": 320
+            }, {
+                "height": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f17887ff3d09a0fdb1fbdaed417b",
+                "width": 160
+            }],
+            "name": "Eladio Carrion",
+            "popularity": 82,
+            "type": "artist",
+            "uri": "spotify:artist:5XJDexmWFLWOkjOEjOVX3e"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1pls5IPPNa4XfStxzxQBJ6"
+            },
+            "followers": {
+                "href": null,
+                "total": 120
+            },
+            "genres": [],
+            "href": "https://api.spotify.com/v1/artists/1pls5IPPNa4XfStxzxQBJ6",
+            "id": "1pls5IPPNa4XfStxzxQBJ6",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27374f0b151880e6fbee5fe9fb5",
+                "width": 640
+            }, {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0274f0b151880e6fbee5fe9fb5",
+                "width": 300
+            }, {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485174f0b151880e6fbee5fe9fb5",
+                "width": 64
+            }],
+            "name": "dukii",
+            "popularity": 21,
+            "type": "artist",
+            "uri": "spotify:artist:1pls5IPPNa4XfStxzxQBJ6"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/27u4VoM6WmcARMXqXtSVKS"
+            },
+            "followers": {
+                "href": null,
+                "total": 3
+            },
+            "genres": [],
+            "href": "https://api.spotify.com/v1/artists/27u4VoM6WmcARMXqXtSVKS",
+            "id": "27u4VoM6WmcARMXqXtSVKS",
+            "images": [],
+            "name": "Dukiti",
+            "popularity": 0,
+            "type": "artist",
+            "uri": "spotify:artist:27u4VoM6WmcARMXqXtSVKS"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+            },
+            "followers": {
+                "href": null,
+                "total": 4102967
+            },
+            "genres": ["argentine hip hop", "bases de freestyle", "trap argentino", "trap latino"],
+            "href": "https://api.spotify.com/v1/artists/2x7PC78TmgqpEIjaGAZ0Oz",
+            "id": "2x7PC78TmgqpEIjaGAZ0Oz",
+            "images": [{
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5eb18af5b851999c50e3b7b1cb4",
+                "width": 640
+            }, {
+                "height": 320,
+                "url": "https://i.scdn.co/image/ab6761610000517418af5b851999c50e3b7b1cb4",
+                "width": 320
+            }, {
+                "height": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f17818af5b851999c50e3b7b1cb4",
+                "width": 160
+            }],
+            "name": "Trueno",
+            "popularity": 75,
+            "type": "artist",
+            "uri": "spotify:artist:2x7PC78TmgqpEIjaGAZ0Oz"
+        }, {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/64g25AtXULqxSKVwPXI92m"
+            },
+            "followers": {
+                "href": null,
+                "total": 1681
+            },
+            "genres": [],
+            "href": "https://api.spotify.com/v1/artists/64g25AtXULqxSKVwPXI92m",
+            "id": "64g25AtXULqxSKVwPXI92m",
+            "images": [],
+            "name": "Duki & Cazzu",
+            "popularity": 9,
+            "type": "artist",
+            "uri": "spotify:artist:64g25AtXULqxSKVwPXI92m"
+        }],
+        "limit": 15,
+        "next": "https://api.spotify.com/v1/search?query=duki&type=artist&locale=es-ES%2Ces%3Bq%3D0.9%2Car%3Bq%3D0.8&offset=15&limit=15",
+        "offset": 0,
+        "previous": null,
+        "total": 210
+    }
+}

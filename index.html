@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Search with Spotify API</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/Spotify_logo_without_text.svg.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="./img/spotify_logo_with_text.svg" alt="spotify_logo" id="spotify_img">
+        <h1>Music Search with Spotify API</h1>
+        <div id="toggle_theme" class="dark">
+            <img src='./img/moon2.png' id="dark">
+            <img src='./img/sun.png' id="light">
+        </div>
+    </header>
+    <div id="finder">
+        <input type="text" name="search" id="search">
+        <select>
+            <option value="artist">Artists</option>
+            <option value="album">Albums</option>
+            <option value="track">Songs</option>
+        </select>
+        <button><img id="loupe" src="./img/loupe_white.svg" alt="loupe"></button>
+    </div>
+    <div id="results"></div>
+
+</body>
+
+</html>

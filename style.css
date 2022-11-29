@@ -1,0 +1,219 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: color 0.5s ease-out, background-color 0.5s ease-out;
+    }
+    
+     :root {
+        --primary-color: #141414;
+        --secondary-color: white;
+    }
+    
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: var(--primary-color);
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5vw;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: var(--secondary-color);
+    }
+    
+    #spotify_img {
+        width: 20%;
+    }
+    
+    input[type='text'] {
+        border-radius: 20px;
+        padding: 1vh 1vw;
+        border: 1px solid #1ED760;
+    }
+    
+    input[type='text']:focus {
+        outline: none;
+        /* box-shadow: 2px 2px 2px #1ED760;*/
+        box-shadow: 2px 2px 2px 0px lightgray;
+    }
+    
+    #finder {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vw;
+        padding-bottom: 2vh;
+    }
+    
+    button {
+        border: 0px;
+        width: fit-content;
+        background: none;
+    }
+    
+    button>img {
+        width: calc(2vw + 2vh);
+        padding: 0.5vw;
+    }
+    
+    button:hover>img {
+        background-color: lightgray;
+        border-radius: 10px;
+    }
+    
+    #results {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1vw;
+        gap: 0.5vw;
+    }
+    
+    .result {
+        width: 18vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #1ED760;
+        border-radius: 15px;
+    }
+    
+    .title {
+        width: 100%;
+        padding: 2vw;
+        font-weight: 700;
+        font-size: 1rem;
+        color: black;
+        overflow: hidden;
+    }
+    
+    .img_div {
+        overflow: hidden;
+        position: relative;
+    }
+    /*Toggle Theme*/
+    
+    #toggle_theme {
+        position: relative;
+        align-self: center;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--primary-color);
+        align-items: center;
+        gap: 0.5vw;
+        border-radius: 20px;
+        padding: 0.2vw;
+        border: 1px solid #1ED760;
+    }
+    
+    #toggle_theme>img {
+        width: calc(1.5vw + 1.5vh);
+        height: calc(1.5vw + 1.5vh);
+    }
+    
+    #toggle_theme::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 85%;
+        border-radius: 20px;
+        background-color: #1ED760;
+        /* border: 1px solid black; */
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .dark::after {
+        transform: translateX(85%);
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .light::after {
+        transition: all 0.3s ease-in-out;
+    }
+    
+    select {
+        background-color: #1ED760;
+        padding: 0.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: var(--secondary-color)
+    }
+    
+    option {
+        padding: 0.5rem
+    }
+    
+    .image {
+        width: 18vw;
+        height: 18vw;
+        transition: all 0.15s ease-in-out;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .image:hover {
+        transform: scale(1.2);
+    }
+    
+    .play,
+    .pause {
+        width: 2.5vw;
+        position: absolute;
+        bottom: 2vh;
+        /* background-color: white; */
+        transition: all 0.15s ease-in-out;
+    }
+    
+    .play {
+        right: 4vw;
+    }
+    
+    .pause {
+        right: 1vw;
+    }
+    
+    .play:hover,
+    .pause:hover {
+        transform: scale(1.2);
+    }
+    
+    @media (max-width:600px) {
+        .image {
+            width: 90vw;
+            height: 90vw;
+        }
+        #results {
+            flex-direction: column;
+            gap: 3vh;
+        }
+        .result {
+            width: 90vw;
+        }
+        .play,
+        .pause {
+            width: 10vw;
+            position: absolute;
+            bottom: 2vh;
+            /* background-color: white; */
+            transition: all 0.15s ease-in-out;
+        }
+        .play {
+            right: 15vw;
+        }
+        .pause {
+            right: 1vw;
+        }
+    }
