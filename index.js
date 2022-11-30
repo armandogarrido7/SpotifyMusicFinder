@@ -37,7 +37,7 @@ function dealResponse(first_petition) {
                     img.src = elem.album.images[0].url;
                     audio = document.createElement('audio');
                     audio.setAttribute('src', elem.preview_url);
-                    audio.volume = 0.25;
+                    audio.volume = 0.5;
                     img_div.appendChild(audio);
                     play_img = document.createElement('img');
                     play_img.src = './img/play.svg'
@@ -47,7 +47,13 @@ function dealResponse(first_petition) {
                     pause_img.className = 'pause';
                     img_div.appendChild(play_img);
                     img_div.appendChild(pause_img);
-                    play_img.onclick = (e) => { e.target.closest('div').children[1].play() };
+                    play_img.onclick = (e) => {
+                        audios = document.getElementsByTagName('audio');
+                        for (a of audios) {
+                            a.pause();
+                        }
+                        e.target.closest('div').children[1].play()
+                    };
                     pause_img.onclick = (e) => { e.target.closest('div').children[1].pause() };
 
                 } else {
