@@ -52,9 +52,20 @@ function dealResponse(first_petition) {
                         for (a of audios) {
                             a.pause();
                         }
+                        result_divs = document.getElementsByClassName('result');
+                        for (result of result_divs) {
+                            result.style.opacity = 0.5;
+                        }
+                        e.target.closest('.result').style.opacity = 1;
                         e.target.closest('div').children[1].play()
                     };
-                    pause_img.onclick = (e) => { e.target.closest('div').children[1].pause() };
+                    pause_img.onclick = (e) => {
+                        e.target.closest('div').children[1].pause();
+                        result_divs = document.getElementsByClassName('result');
+                        for (result of result_divs) {
+                            result.style.opacity = 1;
+                        }
+                    };
 
                 } else {
                     if (elem.images[0]) {
