@@ -197,6 +197,29 @@
         transform: scale(1.2);
     }
     
+    @media (max-width:800px) {
+        .image {
+            width: 40vw;
+            height: 40vw;
+        }
+        .result {
+            width: 45vw;
+        }
+        .play,
+        .pause {
+            width: 7vw;
+            position: absolute;
+            bottom: 2vh;
+            transition: all 0.15s ease-in-out;
+        }
+        .play {
+            right: 9vw;
+        }
+        .pause {
+            right: 1vw;
+        }
+    }
+    
     @media (max-width:600px) {
         .image {
             width: 90vw;
