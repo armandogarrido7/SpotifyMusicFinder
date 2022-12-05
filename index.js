@@ -60,6 +60,10 @@ function dealResponse(first_petition) {
                         e.target.closest('div').children[1].play()
                     };
                     pause_img.onclick = (e) => {
+                        audios = document.getElementsByTagName('audio');
+                        for (a of audios) {
+                            a.pause();
+                        }
                         e.target.closest('div').children[1].pause();
                         result_divs = document.getElementsByClassName('result');
                         for (result of result_divs) {
