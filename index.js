@@ -11,7 +11,6 @@ function sendRequest(first_petition, offset) {
 
 function dealResponse(first_petition) {
     if (request.readyState === XMLHttpRequest.DONE && request.status === 200) {
-        console.log(request.responseText);
         window.addEventListener('scroll', checkScroll);
         response_json = JSON.parse(request.responseText);
         if (request.readyState = 4 && request.status == 200) {
