@@ -53,13 +53,14 @@
         /* box-shadow: 2px 2px 2px 0px lightgray; */
     }
     
-    #finder {
+    #search {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 1vw;
         padding-bottom: 2vh;
         margin: auto;
+        width: 40vw;
     }
     
     button {
@@ -81,6 +82,7 @@
     
     #results {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         margin: 1vw;

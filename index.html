@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Search with Spotify API</title>
-    <script src="index.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./img/Spotify_logo_without_text.svg.png" type="image/x-icon">
 </head>
@@ -21,16 +22,32 @@
         </div>
     </header>
     <div id="finder">
-        <input type="text" name="search" id="search">
-        <select>
-            <option value="artist">Artists</option>
-            <option value="album">Albums</option>
-            <option value="track">Songs</option>
-        </select>
-        <button><img id="loupe" src="./img/loupe_white.svg" alt="loupe"></button>
+        <div id="search">
+            <input type="text" name="search" id="search" v-model="textSearch" @keyup.enter="search()">
+            <select v-model="type" @change="search()">
+                <option value="artist">Artists</option>
+                <option value="album">Albums</option>
+                <option value="track">Songs</option>
+            </select>
+            <button><img id="loupe" src="./img/loupe_white.svg" alt="loupe" @click="search()"></button>
+        </div>
+        <div id="results">
+            <div class="result" v-for="result in results" key="result.id">
+                <div class="img_div">
+                    <img class="image" :src="getImageURL(result)">
+                    <!-- result.images[0].url -->
+                    <!-- :src="result.album.images[0].url" -->
+                    <audio v-if="type=='track'" :src="result.preview_url" :id="result.id" volume="0.5"></audio>
+                    <img v-if="type=='track'" src="./img/play.svg" class="play" @click="playAudio(result.id)">
+                    <img v-if="type=='track'" src="./img/pause.svg" class="pause" @click="stopAudio()">
+                </div>
+                <div class="title">
+                    {{result.name}}
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="results"></div>
-
+    <script src="vue.js"></script>
 </body>
 
 </html>
